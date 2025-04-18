@@ -1,0 +1,29 @@
+READ x
+t1 = 3
+t2 = 5
+t3 = 2
+t4 = 1
+t5 = 1
+t6 = 5
+t7 = 8
+x = t7
+PRINT x
+IFZ x GOTO L1
+t8 = 1
+t9 = x - t8
+x = t9
+PRINT x
+GOTO L2
+L1:
+t10 = 10
+x = t10
+PRINT x
+L2:
+L3:
+IFZ x GOTO L4
+PRINT x
+t11 = 1
+t12 = x - t11
+x = t12
+GOTO L3
+L4:
