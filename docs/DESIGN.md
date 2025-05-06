@@ -5,13 +5,13 @@
 The project follows a classic compiler pipeline:
 
 ```text
-Source Code 
-    ↓ Lexer → Token Stream 
-    ↓ Parser → AST 
-    ↓ Semantic Analyzer 
-    ↓ TAC Generator → Raw 3-address code 
-    ↓ Optimizer → Optimized TAC 
-    ↓ Codegen → NASM Assembly 
+Source Code
+    ↓ Lexer → Token Stream
+    ↓ Parser → AST
+    ↓ Semantic Analyzer
+    ↓ TAC Generator → Raw 3-address code
+    ↓ Optimizer → Optimized TAC
+    ↓ Codegen → NASM Assembly
     ↓ Execution (Interpreter)
 ```
 
